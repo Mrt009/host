@@ -1,0 +1,43 @@
+
+
+@media only screen and (max-width:700px) {
+    .desp,.slider-bottom {
+      display:none;
+      visibility:hidden;
+    }
+   
+
+
+    
+  }
+
+  @media (max-width: 1000px) {
+    body {
+        font-size: 16px; /* Adjust base font size for mobile screens */
+        line-height: 1.4; /* Adjust line-height for mobile screens */
+  
+
+    .h1, h1 { font-size: 2rem; } /* Adjust h1 font size for mobile */
+    .h2, h2 { font-size: 1.25rem; } /* Adjust h2 font size for mobile */
+    .h3, h3 { font-size: 1rem; } /* Adjust h3 font size for mobile */
+    .h4, h4 { font-size: 0.875rem; } /* Adjust h4 font size for mobile */
+}
+}
+
+@media (min-width: 701px) {
+    .slider-content {
+        margin-top: 0; /* Default margin for screens above 700px */
+    }
+    .content-para {
+        margin-top: 0; /* Default margin for screens above 700px */
+    }
+}
+@media (max-width: 700px) {
+    .slider-content {
+        margin-top: 20px; /* Adjust margin for screens 700px and below */
+        display:none;
+    }
+    .content-para {
+        margin-top: 20px; /* Adjust margin for screens 700px and below */
+    }
+}
