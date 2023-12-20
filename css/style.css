@@ -2,10 +2,6 @@
     About
 ====================================== */
 
-/*
-   @Animation Coding
-   #animatin coding
- */
 
 /* ===================================
     Table of Content
@@ -2138,4 +2134,26 @@ and (orientation: portrait) {
   .section {
     height: 100vh; /* Each section takes up the entire viewport height */
  }
+
+/* for mini screen */
+@media only screen and (max-width: 600px) {
+    /* Hide the paragraph on small screens */
+    .pt-3 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    /* Reduce the font size for smaller screens */
+    .main-font {
+        font-size: 18px; /* Adjust the size as needed */
+    }}
+
+
+    @media (min-width: 766px) and (max-width: 990px) {
+        .content-para {
+            display: none;
+        }
+    }
+    
  
